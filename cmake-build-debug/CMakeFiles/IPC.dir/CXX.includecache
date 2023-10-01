@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/studyhole/Desktop/art/IPC/main.cpp
+unistd.h
+-
+cstdio
+-
+cstdlib
+-
+sys/socket.h
+-
+sys/un.h
+-
+cstring
+-
+cerrno
+-
+
